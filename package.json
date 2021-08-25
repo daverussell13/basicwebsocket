@@ -1,5 +1,23 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "basicwebsocket",
+  "description": "source : https://github.com/websockets/ws",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daverussell13/basicwebsocket.git"
+  },
+  "author": "Dave Russell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daverussell13/basicwebsocket/issues"
+  },
+  "homepage": "https://github.com/daverussell13/basicwebsocket#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "ws": "^8.2.0"
   }
 }
